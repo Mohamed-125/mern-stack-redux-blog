@@ -8,7 +8,9 @@ const blogRoutes = require("./routes/blogRoutes");
 const profileRoutes = require("./routes/profileRoutes");
 const commentsRoutes = require("./routes/commentsRoutes");
 const notificationsRoutes = require("./routes/notificationsRoutes");
-require("dotenv").config();
+const path = require("path");
+
+require("dotenv").config({ path: path.resolve(__dirname, "./.env") });
 
 app.use(
   cors({
