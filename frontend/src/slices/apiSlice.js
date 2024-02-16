@@ -10,6 +10,7 @@ const base =
     ? "http://localhost:3000/"
     : "https://mern-stack-redux-blog.onrender.com/";
 
+//
 const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: base || "",
