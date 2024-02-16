@@ -6,7 +6,9 @@ import {
 import axios from "axios";
 
 const base =
-  import.meta.env.MODE === "development" ? "http://localhost:3000/" : "";
+  import.meta.env.MODE === "development"
+    ? "http://localhost:3000/"
+    : "https://mern-stack-redux-blog.onrender.com/";
 
 const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
