@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body { 
+    // font-family: "Poppins", sans-serif;
+}
+
+// .btn {
+//   padding: 10px 30px;
+//   background-color: black;
+//   color: white;
+//   &-max-w { 
+//     max-width: 150px;
+//   }
+
+// }
+.container { 
+    max-width:1100px !important;
+    margin-inline:auto;
+    padding-inline:20px !important;
+}
+
+::selection {
+    background-color: #383838 !important;
+    color: white !important;
+}
+
+.blogContainer { 
+    max-width:800px !important;
+    margin-inline:auto
+}
+.codex-editor-overlay {
+    display:none
+}
+.ce-block__content { 
+    max-width: unset;
+}
+ .ce-block--selected .ce-block__content{ 
+    background-color: transparent;
+}
+
+.codex-editor:not(.codex-editor:last-child) { 
+    display: none;
+}
+
+.active-select { 
+    background-color:black;
+    color:white
+}
+.ce-toolbar__actions { 
+    left:100%; 
+    bottom:100% !important
+}
+
+.codex-editor__redactor { 
+    padding-bottom:20px !important
+}
