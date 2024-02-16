@@ -16,6 +16,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "http://localhost:5174",
       "http://192.168.1.3:5173",
       "https://mern-stack-redux-blog-frontend.onrender.com/",
     ],

@@ -9,8 +9,7 @@ const base =
   import.meta.env.MODE === "development"
     ? "http://localhost:3000/"
     : "https://mern-stack-redux-blog.onrender.com/";
-
-//
+console.log(import.meta.env.MODE);
 const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: base || "",
